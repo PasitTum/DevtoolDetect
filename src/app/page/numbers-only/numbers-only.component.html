@@ -1,0 +1,51 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <p>Directive Number</p>
+        </div>
+        <div class="card-container">
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 text-right">
+                    <label for="keyRegEx">keyRegEx (0-9)</label>
+                </div>
+                <div class="col-12 col-md-8">
+                    <input 
+                        type="text" 
+                        id="keyRegEx" 
+                        name="keyRegEx" 
+                        KeyByRegex="^[0-9]*$"
+                        class="form-control"
+                    >
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-4 text-right">
+                    <label for="numberOnly">Number Only</label>
+                </div>
+                <div class="col-12 col-md-8">
+                    <input 
+                        type="text" 
+                        id="numberOnly" 
+                        name="numberOnly" 
+                        numbersOnly
+                        class="form-control"
+                    >
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 text-right">
+                    <label for="twoDigit">decimal 2 digit</label>
+                </div>
+                <div class="col-12 col-md-8">
+                    <input 
+                        type="text" 
+                        id="twoDigit" 
+                        name="twoDigit" 
+                        appTwoDigitDecimaNumber
+                        class="form-control"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

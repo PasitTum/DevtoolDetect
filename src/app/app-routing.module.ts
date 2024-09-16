@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DevToolDetectComponent } from './page/devtool-detect/devtool-detect.component';
 import { HomeComponent } from './page/home/home.component';
+import { NumbersOnlyComponent } from './page/numbers-only/numbers-only.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
       {
         path: 'detecttools',
         component: DevToolDetectComponent
+      },
+      {
+        path: 'number',
+        component: NumbersOnlyComponent
       },
       {
         path: '**',
